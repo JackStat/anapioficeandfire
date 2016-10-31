@@ -1,6 +1,7 @@
 #' @title books
 #'
 #' @importFrom httr GET
+#' @importFrom jsonlite fromJSON
 #' @export
 
 books <- function(bookNum = NULL, name = NULL, fromReleaseDate = NULL, toReleaseDate = NULL, page = NULL, pageSize = NULL){
